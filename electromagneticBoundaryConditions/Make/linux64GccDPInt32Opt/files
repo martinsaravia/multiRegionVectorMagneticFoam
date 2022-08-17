@@ -1,0 +1,5 @@
+SOURCE += magneticInterface/magneticInterfaceFvPatchFields.C
+SOURCE += magneticVectorInterface/MVIFvPatchVectorField.C
+SOURCE += currentVectorInterface/CVIFvPatchVectorField.C
+
+LIB = $(FOAM_USER_LIBBIN)/libelectromagneticBoundaryConditions

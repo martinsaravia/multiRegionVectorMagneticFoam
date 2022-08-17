@@ -1,0 +1,19 @@
+
+SOURCE += electromagneticModel/electromagneticModel.C
+
+SOURCE += solidMagnetostaticModel/solidMagnetostaticModel.C
+
+SOURCE += permeabilityModels/permeabilityModel/permeabilityModel.C
+SOURCE += permeabilityModels/permeabilityModel/permeabilityModelNew.C
+SOURCE += permeabilityModels/linearFerromagnetic/linearFerromagnetic.C
+
+SOURCE += magnetizationModels/magnetizationModel/magnetizationModel.C
+SOURCE += magnetizationModels/magnetizationModel/magnetizationModelNew.C
+SOURCE += magnetizationModels/hardMagnetization/hardMagnetization.C
+
+SOURCE += currentModels/currentModel/currentModel.C
+SOURCE += currentModels/currentModel/currentModelNew.C
+SOURCE += currentModels/volumetricCurrent/volumetricCurrent.C
+
+
+LIB = $(FOAM_USER_LIBBIN)/libelectromagneticModels

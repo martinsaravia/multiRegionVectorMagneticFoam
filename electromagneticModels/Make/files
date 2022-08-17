@@ -1,0 +1,19 @@
+
+electromagneticModel/electromagneticModel.C
+
+solidMagnetostaticModel/solidMagnetostaticModel.C
+
+permeabilityModels/permeabilityModel/permeabilityModel.C
+permeabilityModels/permeabilityModel/permeabilityModelNew.C
+permeabilityModels/linearFerromagnetic/linearFerromagnetic.C
+
+magnetizationModels/magnetizationModel/magnetizationModel.C
+magnetizationModels/magnetizationModel/magnetizationModelNew.C
+magnetizationModels/hardMagnetization/hardMagnetization.C
+
+currentModels/currentModel/currentModel.C
+currentModels/currentModel/currentModelNew.C
+currentModels/volumetricCurrent/volumetricCurrent.C
+
+
+LIB = $(FOAM_USER_LIBBIN)/libelectromagneticModels

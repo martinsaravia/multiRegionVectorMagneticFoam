@@ -1,0 +1,9 @@
+#!/bin/sh
+set -x
+
+clear
+wmakeLnInclude .
+wmake libso electromagneticBoundaryConditions
+wmake libso electromagneticModels
+
+wmake solver

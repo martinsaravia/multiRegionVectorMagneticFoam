@@ -1,0 +1,9 @@
+#!/bin/sh
+cd ${0%/*} || exit 1    # run from this directory
+set -x
+
+wclean electromagneticBoundaryConditions
+wclean electromagneticModels
+wclean solver
+
+# ----------------------------------------------------------------- end-of-file

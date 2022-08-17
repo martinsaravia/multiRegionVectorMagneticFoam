@@ -1,0 +1,9 @@
+﻿EXE_INC = \
+    -I.. \
+    -IlnInclude \
+    -I$(LIB_SRC)/finiteVolume/lnInclude \
+    -I$(LIB_SRC)/meshTools/lnInclude
+
+LIB_LIBS = \
+    -lfiniteVolume \
+    -lmeshTools
